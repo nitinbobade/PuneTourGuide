@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pune Tour Guide</string>
+    <string name="content_description_for_image_view">A picture illustrating tour destinations</string>
+
+    <string name="places">Places</string>
+    <string name="food">Food</string>
+    <string name="shopping">Shopping</string>
+</resources>

@@ -17,19 +17,18 @@ public class FoodFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.tour_list_view, container, false);
 
         final ArrayList<Tour> tours = new ArrayList<>();
 
-        tours.add(new Tour(R.drawable.cafe_good_luck, "Cafe Goodluck", "FC Road, Deccan Gymkhana, Pune", "A popular Irani cafe-restaurant established in 1935 by Hussain Ali Yakshi"));
-        tours.add(new Tour(R.drawable.vaishali_restaurant, "Vaishali", "FC Road, Deccan Gymkhana, Pune", "A restaurant popular in Pune for southern Indian food"));
-        tours.add(new Tour(R.drawable.bedekar_misal, "Bedekar Misal", "Narayan Peth, Pune, Maharashtra", "Grassroots India dining at a basic restaurant with self-service & an open kitchen."));
-        tours.add(new Tour(R.drawable.shabree_restaurant, "Shabree Restaurant", "Paduka Chowk off FC Road, Pune", "A fine-dine restaurant, specialized in ethnic Maharashtrian thali"));
-        tours.add(new Tour(R.drawable.tiranga_nonveg, "Tiranga’s Nonveg", "Pitambar Heights, Paud Rd, Kothrud, Pune", "A must try delicious biryani, legendary outlets & nice ambience too."));
+        tours.add(new Tour(R.drawable.cafe_good_luck, getString(R.string.first_food_destination_name), getString(R.string.first_food_destination_location), getString(R.string.first_food_destination_description)));
+        tours.add(new Tour(R.drawable.vaishali_restaurant, getString(R.string.second_food_destination_name), getString(R.string.second_food_destination_location), getString(R.string.second_food_destination_description)));
+        tours.add(new Tour(R.drawable.bedekar_misal, getString(R.string.third_food_destination_name), getString(R.string.third_food_destination_location), getString(R.string.third_food_destination_description)));
+        tours.add(new Tour(R.drawable.shabree_restaurant, getString(R.string.fourth_food_destination_name), getString(R.string.fourth_food_destination_location), getString(R.string.fourth_food_destination_description)));
+        tours.add(new Tour(R.drawable.tiranga_nonveg, getString(R.string.fifth_food_destination_name), getString(R.string.fifth_food_destination_location), getString(R.string.fifth_food_destination_description)));
 
         TourAdapter tourAdapter = new TourAdapter(getActivity(), tours);
 

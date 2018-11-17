@@ -17,18 +17,17 @@ public class PlacesFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.tour_list_view, container, false);
 
         final ArrayList<Tour> tours = new ArrayList<>();
 
-        tours.add(new Tour(R.drawable.sinhagad_pune, "Sinhagad", "Sinhagad Ghat Road, Thoptewadi Pune", "Hill fortress located at around 36 km southwest of the city"));
-        tours.add(new Tour(R.drawable.aga_khan_palace, "Aga Khan Palace", "Aga Khan Palace Road, Pune, Maharashtra", "Built in 1892 by Sultan Muhammed Shah Aga Khan III in Pune, India."));
-        tours.add(new Tour(R.drawable.shaniwar_wada, "Shaniwar Wada", "Shaniwar Peth, Pune, Maharashtra", "Historical fortification built in 1732 in the city of Pune in Maharashtra, India."));
-        tours.add(new Tour(R.drawable.khadakwasla_dam, "Khadakwasla Dam", "Khadakwasla, Pune, Maharashtra", "A dam on the Mutha River 21 km (13 mi) from the centre of the city"));
+        tours.add(new Tour(R.drawable.sinhagad_pune, getString(R.string.first_places_destination_name), getString(R.string.first_places_destination_location), getString(R.string.first_places_destination_description)));
+        tours.add(new Tour(R.drawable.aga_khan_palace, getString(R.string.second_places_destination_name), getString(R.string.second_places_destination_location), getString(R.string.second_places_destination_description)));
+        tours.add(new Tour(R.drawable.shaniwar_wada, getString(R.string.third_places_destination_name), getString(R.string.third_places_destination_location), getString(R.string.third_places_destination_description)));
+        tours.add(new Tour(R.drawable.khadakwasla_dam, getString(R.string.fourth_places_destination_name), getString(R.string.fourth_places_destination_location), getString(R.string.fourth_places_destination_description)));
 
         TourAdapter tourAdapter = new TourAdapter(getActivity(), tours);
 

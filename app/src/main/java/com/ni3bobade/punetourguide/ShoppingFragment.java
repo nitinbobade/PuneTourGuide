@@ -17,18 +17,17 @@ public class ShoppingFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.tour_list_view, container, false);
 
         final ArrayList<Tour> tours = new ArrayList<>();
 
-        tours.add(new Tour(R.drawable.phoenix_market_city, "Phoenix Marketcity", "Viman Nagar Rd, Pune, Maharashtra", "One of the largest malls in India, with the area of 3.4 million square feet"));
-        tours.add(new Tour(R.drawable.amanora_mall, "Amanora Mall", "Hadapsar-Kharadi Bypass, Pune", "Shopping destination of Pune where city meets to Shop, Eat & have a great time"));
-        tours.add(new Tour(R.drawable.pune_central, "Pune Central", "Shivaji Nagar, Pune, Maharashtra", "One stop shopping destination for all the shopaholics"));
-        tours.add(new Tour(R.drawable.kumar_pacific_mall, "Kumar Pacific Mall", "Shankarshet Road Near Swargate, Pune", "A lifestyle mall that keeps perfect synergy between convenience and entertainment"));
-        tours.add(new Tour(R.drawable.seasons_mall, "Seasons Mall", "Magarpatta City, Hadapsar, Pune", "Home to over 100 brands, 25,000 sq. ft. of food court, & a 15 screen multiplex"));
+        tours.add(new Tour(R.drawable.phoenix_market_city, getString(R.string.first_shopping_destination_name), getString(R.string.first_shopping_destination_location), getString(R.string.first_shopping_destination_description)));
+        tours.add(new Tour(R.drawable.amanora_mall, getString(R.string.second_shopping_destination_name), getString(R.string.second_shopping_destination_location), getString(R.string.second_shopping_destination_description)));
+        tours.add(new Tour(R.drawable.pune_central, getString(R.string.third_shopping_destination_name), getString(R.string.third_shopping_destination_location), getString(R.string.third_shopping_destination_description)));
+        tours.add(new Tour(R.drawable.kumar_pacific_mall, getString(R.string.fourth_shopping_destination_name), getString(R.string.fourth_shopping_destination_location), getString(R.string.fourth_shopping_destination_description)));
+        tours.add(new Tour(R.drawable.seasons_mall, getString(R.string.fifth_shopping_destination_name), getString(R.string.fifth_shopping_destination_location), getString(R.string.fifth_shopping_destination_description)));
 
         TourAdapter tourAdapter = new TourAdapter(getActivity(), tours);
 

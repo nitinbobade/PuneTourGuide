@@ -5,4 +5,78 @@
     <string name="places">Places</string>
     <string name="food">Food</string>
     <string name="shopping">Shopping</string>
+    <string name="nearby">NearBy</string>
+
+    <string name="first_food_destination_name">Cafe Goodluck</string>
+    <string name="first_food_destination_location">FC Road, Deccan Gymkhana, Pune</string>
+    <string name="first_food_destination_description">A popular Irani cafe-restaurant established in 1935 by Hussain Ali Yakshi</string>
+
+    <string name="second_food_destination_name">Vaishali</string>
+    <string name="second_food_destination_location">FC Road, Deccan Gymkhana, Pune</string>
+    <string name="second_food_destination_description">A restaurant popular in Pune for southern Indian food</string>
+
+    <string name="third_food_destination_name">Bedekar Misal</string>
+    <string name="third_food_destination_location">Narayan Peth, Pune, Maharashtra</string>
+    <string name="third_food_destination_description"><![CDATA[Grassroots India dining at a basic restaurant with self-service & an open kitchen.]]></string>
+
+    <string name="fourth_food_destination_name">Shabree Restaurant</string>
+    <string name="fourth_food_destination_location">Paduka Chowk off FC Road, Pune</string>
+    <string name="fourth_food_destination_description">A fine-dine restaurant, specialized in ethnic Maharashtrian thali</string>
+
+    <string name="fifth_food_destination_name">Tiranga’s Nonveg</string>
+    <string name="fifth_food_destination_location">Pitambar Heights, Paud Rd, Kothrud, Pune</string>
+    <string name="fifth_food_destination_description"><![CDATA[A must try delicious biryani, legendary outlets & nice ambience too.]]></string>
+
+    <string name="first_nearby_destination_name">Jejuri</string>
+    <string name="first_nearby_destination_location">Jejuri, Maharashtra</string>
+    <string name="first_nearby_destination_description"><![CDATA[At a distance of 48 km from Pune, Jejuri is a town & municipality situated to the southeast of Pune city]]></string>
+
+    <string name="second_nearby_destination_name">Lonavala - Hill Station</string>
+    <string name="second_nearby_destination_location">Lonavala, Maharashtra</string>
+    <string name="second_nearby_destination_description">A beautiful hill station lies at an altitude of 622 m in the Sahyadri Ranges</string>
+
+    <string name="third_nearby_destination_name">Rajgad Fort</string>
+    <string name="third_nearby_destination_location">Pune district, Maharashtra</string>
+    <string name="third_nearby_destination_description">At a distance of 54 km from Pune, Rajgad is an ancient hill fort situated in the Pune district</string>
+
+    <string name="fourth_nearby_destination_name">Mulshi Dam</string>
+    <string name="fourth_nearby_destination_location">Mulshi, Pune, Maharashtra</string>
+    <string name="fourth_nearby_destination_description">Dam built across the Mula River located in Mulshi Taluka of Pune district in Maharashtra</string>
+
+    <string name="first_places_destination_name">Sinhagad</string>
+    <string name="first_places_destination_location">Sinhagad Ghat Road, Thoptewadi Pune</string>
+    <string name="first_places_destination_description">Hill fortress located at around 36 km southwest of the city</string>
+
+    <string name="second_places_destination_name">Aga Khan Palace</string>
+    <string name="second_places_destination_location">Aga Khan Palace Road, Pune, Maharashtra</string>
+    <string name="second_places_destination_description">Built in 1892 by Sultan Muhammed Shah Aga Khan III in Pune, India.</string>
+
+    <string name="third_places_destination_name">Shaniwar Wada</string>
+    <string name="third_places_destination_location">Shaniwar Peth, Pune, Maharashtra</string>
+    <string name="third_places_destination_description">Historical fortification built in 1732 in the city of Pune in Maharashtra, India.</string>
+
+    <string name="fourth_places_destination_name">Khadakwasla Dam</string>
+    <string name="fourth_places_destination_location">Khadakwasla, Pune, Maharashtra</string>
+    <string name="fourth_places_destination_description">A dam on the Mutha River 21 km (13 mi) from the centre of the city</string>
+
+    <string name="first_shopping_destination_name">Phoenix Marketcity</string>
+    <string name="first_shopping_destination_location">Viman Nagar Rd, Pune, Maharashtra</string>
+    <string name="first_shopping_destination_description">One of the largest malls in India, with the area of 3.4 million square feet</string>
+
+    <string name="second_shopping_destination_name">Amanora Mall</string>
+    <string name="second_shopping_destination_location">Hadapsar-Kharadi Bypass, Pune</string>
+    <string name="second_shopping_destination_description"><![CDATA[Shopping destination of Pune where city meets to Shop, Eat & have a great time]]></string>
+
+    <string name="third_shopping_destination_name">Pune Central</string>
+    <string name="third_shopping_destination_location">Shivaji Nagar, Pune, Maharashtra</string>
+    <string name="third_shopping_destination_description">One stop shopping destination for all the shopaholics</string>
+
+    <string name="fourth_shopping_destination_name">Kumar Pacific Mall</string>
+    <string name="fourth_shopping_destination_location">Shankarshet Road Near Swargate, Pune</string>
+    <string name="fourth_shopping_destination_description">A lifestyle mall that keeps perfect synergy between convenience and entertainment</string>
+
+    <string name="fifth_shopping_destination_name">Seasons Mall</string>
+    <string name="fifth_shopping_destination_location">Magarpatta City, Hadapsar, Pune</string>
+    <string name="fifth_shopping_destination_description"><![CDATA[Home to over 100 brands, 25,000 sq. ft. of food court, & a 15 screen multiplex]]></string>
+
 </resources>

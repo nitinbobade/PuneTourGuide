@@ -20,14 +20,16 @@ public class TourCategoryAdapter extends FragmentPagerAdapter {
             return new PlacesFragment();
         } else if (position == 1) {
             return new FoodFragment();
-        } else {
+        } else if (position == 2) {
             return new ShoppingFragment();
+        } else {
+            return new NearByFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     public CharSequence getPageTitle(int position) {
@@ -35,8 +37,10 @@ public class TourCategoryAdapter extends FragmentPagerAdapter {
             return context.getString(R.string.places);
         } else if (position == 1) {
             return context.getString(R.string.food);
-        } else {
+        } else if (position == 2) {
             return context.getString(R.string.shopping);
+        } else {
+            return context.getString(R.string.nearby);
         }
     }
 }
